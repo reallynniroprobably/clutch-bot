@@ -1,1 +1,1 @@
-import discord as dih
+import discord as dihcord
