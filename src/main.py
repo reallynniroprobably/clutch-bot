@@ -1,7 +1,7 @@
+import os
 import asyncio
 import discord as dihcord
 from collections import defaultdict
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -37,4 +37,4 @@ async def ping_user(message: dihcord.Message):
 
 
 
-bot.run(os.environ["DISCORD_TOKEN"])
+bot.run(os.getenv("DISCORD_TOKEN"))
